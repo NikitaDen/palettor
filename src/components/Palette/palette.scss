@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800&display=swap');
+@import "./PaletteItem/palette-item";
+@import "./Interactions/interactions";
+
+$text-font: 'Poppins', sans-serif;
+
+.palette__container {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  text-align: center;
+}

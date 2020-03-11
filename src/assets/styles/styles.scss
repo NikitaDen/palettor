@@ -1,0 +1,33 @@
+//FONTS
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800&display=swap');
+@import "./../../components/Palette/palette";
+@import "./../../components/Header/header";
+@import "./../../components/Info/info";
+
+//Components
+
+$text-color: #343434;
+$text-font: 'Poppins', sans-serif;
+
+//Styles
+
+:root {
+  box-sizing: border-box;
+  font-size: 1rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+body {
+  font-family: $text-font;
+  color: $text-color;
+  overflow-x: hidden;
+}
+
+.App {
+  text-align: center;
+}
