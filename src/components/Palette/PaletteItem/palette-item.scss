@@ -12,6 +12,10 @@ $text-font: 'Poppins', sans-serif;
     background: none;
     text-align: center;
     font-weight: bold;
+
+    &:hover {
+      cursor: pointer;
+    }
   }
 
   &__item {

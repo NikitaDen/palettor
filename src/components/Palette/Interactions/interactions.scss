@@ -16,6 +16,10 @@ $text-font: 'Poppins', sans-serif;
   background: none;
   text-align: center;
   margin-top: 2rem;
+
+  &:hover {
+    cursor: pointer;
+  }
 }
 
 .button {
