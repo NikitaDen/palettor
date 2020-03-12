@@ -39,7 +39,7 @@ const PaletteItem = (props) => {
                                    value={item.color}/>
                             <img onClick={() => toggleLockColor(item.locked, item.id)}
                                  className="button button--lock"
-                                 src={item.locked ? unlockImage : lockImage} alt={'There is a color lock'}/>
+                                 src={item.locked ? unlockImage : lockImage} alt={item.locked ? 'Lock color' : 'Unlock color'}/>
                         </div>
                     </div>
                 )
