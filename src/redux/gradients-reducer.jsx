@@ -1,7 +1,7 @@
 const REFRESH_GRADIENT = 'REFRESH_GRADIENT';
 
 function rgba() {
-    return `rgb(${Math.random() * 255}, ${Math.random() * 255}, ${Math.random() * 255})`
+    return `rgb(${Math.ceil(Math.random() * 255)}, ${Math.ceil(Math.random() * 255)}, ${Math.ceil(Math.random() * 255)})`
 }
 
 function addRgba() {
@@ -16,9 +16,10 @@ function addRgba() {
 }
 
 const initialState = {
-    // linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
     gradient: [
-        {linearGradient: `linear-gradient(${Math.random() * 360}deg, ${addRgba()}`, id: 1},
+        {linearGradient: `linear-gradient(${Math.ceil(Math.random() * 360)}deg, ${addRgba()}`, id: 1},
+        {linearGradient: `linear-gradient(${Math.ceil(Math.random() * 360)}deg, ${addRgba()}`, id: 3},
+        {linearGradient: `linear-gradient(${Math.ceil(Math.random() * 360)}deg, ${addRgba()}`, id: 2},
     ]
 };
 
@@ -27,7 +28,6 @@ const gradientsReducer = (state = initialState, action) => {
         case REFRESH_GRADIENT:
             return {
                 ...state,
-                gradient: `rgb(${Math.random() * 255}, ${Math.random() * 255}, ${Math.random() * 255}}`
             };
     }
     return state;

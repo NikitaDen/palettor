@@ -7,12 +7,17 @@ import {refreshGradients} from "../../redux/gradients-reducer";
 const Gradients = (props) => {
     return (
         <div className='gradients'>
-            <div style={{background: props.gradient[0].linearGradient}} className='gradient'>
-            </div>
-            <div style={{background: props.gradient[0].linearGradient}} className='gradient'>
-            </div>
-            <div style={{background: props.gradient[0].linearGradient}} className='gradient'>
-            </div>
+            {props.gradient.map(item => {
+                return (
+                    <div>
+                        <div style={{background: item.linearGradient}} className='gradient'>
+                        </div>
+                        <span>{item.linearGradient}</span>
+                    </div>
+
+
+                )
+            })}
         </div>
     )
 };
