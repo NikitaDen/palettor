@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/palettor/static/css/main.ff2aa426.chunk.css",
-    "main.js": "/palettor/static/js/main.f462d17f.chunk.js",
-    "main.js.map": "/palettor/static/js/main.f462d17f.chunk.js.map",
+    "main.js": "/palettor/static/js/main.e6253d77.chunk.js",
+    "main.js.map": "/palettor/static/js/main.e6253d77.chunk.js.map",
     "runtime-main.js": "/palettor/static/js/runtime-main.eaa0ec68.js",
     "runtime-main.js.map": "/palettor/static/js/runtime-main.eaa0ec68.js.map",
     "static/js/2.bd7d84f7.chunk.js": "/palettor/static/js/2.bd7d84f7.chunk.js",
     "static/js/2.bd7d84f7.chunk.js.map": "/palettor/static/js/2.bd7d84f7.chunk.js.map",
     "index.html": "/palettor/index.html",
-    "precache-manifest.23deb01694035e77d7138dda984fe433.js": "/palettor/precache-manifest.23deb01694035e77d7138dda984fe433.js",
+    "precache-manifest.881a72e056643c4d5df8fd840386d282.js": "/palettor/precache-manifest.881a72e056643c4d5df8fd840386d282.js",
     "service-worker.js": "/palettor/service-worker.js",
     "static/css/main.ff2aa426.chunk.css.map": "/palettor/static/css/main.ff2aa426.chunk.css.map",
     "static/js/2.bd7d84f7.chunk.js.LICENSE.txt": "/palettor/static/js/2.bd7d84f7.chunk.js.LICENSE.txt",
@@ -21,6 +21,6 @@
     "static/js/runtime-main.eaa0ec68.js",
     "static/js/2.bd7d84f7.chunk.js",
     "static/css/main.ff2aa426.chunk.css",
-    "static/js/main.f462d17f.chunk.js"
+    "static/js/main.e6253d77.chunk.js"
   ]
 }
