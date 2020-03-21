@@ -1,26 +1,28 @@
 {
   "files": {
-    "main.css": "/palettor/static/css/main.ff2aa426.chunk.css",
-    "main.js": "/palettor/static/js/main.e6253d77.chunk.js",
-    "main.js.map": "/palettor/static/js/main.e6253d77.chunk.js.map",
+    "main.css": "/palettor/static/css/main.ee4456a9.chunk.css",
+    "main.js": "/palettor/static/js/main.5b972bc9.chunk.js",
+    "main.js.map": "/palettor/static/js/main.5b972bc9.chunk.js.map",
     "runtime-main.js": "/palettor/static/js/runtime-main.eaa0ec68.js",
     "runtime-main.js.map": "/palettor/static/js/runtime-main.eaa0ec68.js.map",
-    "static/js/2.bd7d84f7.chunk.js": "/palettor/static/js/2.bd7d84f7.chunk.js",
-    "static/js/2.bd7d84f7.chunk.js.map": "/palettor/static/js/2.bd7d84f7.chunk.js.map",
+    "static/js/2.a85a8b2b.chunk.js": "/palettor/static/js/2.a85a8b2b.chunk.js",
+    "static/js/2.a85a8b2b.chunk.js.map": "/palettor/static/js/2.a85a8b2b.chunk.js.map",
     "index.html": "/palettor/index.html",
-    "precache-manifest.881a72e056643c4d5df8fd840386d282.js": "/palettor/precache-manifest.881a72e056643c4d5df8fd840386d282.js",
+    "precache-manifest.bf1376ee6cb7df1f524df3ef3375fb99.js": "/palettor/precache-manifest.bf1376ee6cb7df1f524df3ef3375fb99.js",
     "service-worker.js": "/palettor/service-worker.js",
-    "static/css/main.ff2aa426.chunk.css.map": "/palettor/static/css/main.ff2aa426.chunk.css.map",
-    "static/js/2.bd7d84f7.chunk.js.LICENSE.txt": "/palettor/static/js/2.bd7d84f7.chunk.js.LICENSE.txt",
+    "static/css/main.ee4456a9.chunk.css.map": "/palettor/static/css/main.ee4456a9.chunk.css.map",
+    "static/js/2.a85a8b2b.chunk.js.LICENSE.txt": "/palettor/static/js/2.a85a8b2b.chunk.js.LICENSE.txt",
     "static/media/close.svg": "/palettor/static/media/close.22138547.svg",
+    "static/media/gradient.svg": "/palettor/static/media/gradient.f6faea6d.svg",
     "static/media/list.svg": "/palettor/static/media/list.0f4d1425.svg",
     "static/media/lock.svg": "/palettor/static/media/lock.69ed3da6.svg",
+    "static/media/palette.svg": "/palettor/static/media/palette.2b6a47a0.svg",
     "static/media/unlock.svg": "/palettor/static/media/unlock.b09efb2e.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.eaa0ec68.js",
-    "static/js/2.bd7d84f7.chunk.js",
-    "static/css/main.ff2aa426.chunk.css",
-    "static/js/main.e6253d77.chunk.js"
+    "static/js/2.a85a8b2b.chunk.js",
+    "static/css/main.ee4456a9.chunk.css",
+    "static/js/main.5b972bc9.chunk.js"
   ]
 }
