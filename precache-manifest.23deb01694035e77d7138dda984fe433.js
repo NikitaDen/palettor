@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f228498e6a14fd7915ae48b95fdfc2f6",
+    "revision": "5a8d6071290392a0a1dac5140c45a995",
     "url": "/palettor/index.html"
   },
   {
-    "revision": "5c1a621f85ce5c36f716",
-    "url": "/palettor/static/css/main.a4f94a9f.chunk.css"
+    "revision": "3d54df0c5c4e6bd8eb84",
+    "url": "/palettor/static/css/main.ff2aa426.chunk.css"
   },
   {
-    "revision": "89f57980ec384f1deaf1",
-    "url": "/palettor/static/js/2.990aa02d.chunk.js"
+    "revision": "9edde87fb3da85619791",
+    "url": "/palettor/static/js/2.bd7d84f7.chunk.js"
   },
   {
     "revision": "f231859d6585c4cd5f80c344783ed269",
-    "url": "/palettor/static/js/2.990aa02d.chunk.js.LICENSE.txt"
+    "url": "/palettor/static/js/2.bd7d84f7.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "5c1a621f85ce5c36f716",
-    "url": "/palettor/static/js/main.34b5a323.chunk.js"
+    "revision": "3d54df0c5c4e6bd8eb84",
+    "url": "/palettor/static/js/main.f462d17f.chunk.js"
   },
   {
     "revision": "e20354a824caedd4f4f3",
