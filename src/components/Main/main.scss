@@ -1,0 +1,50 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  p {
+    font-weight: bold;
+  }
+
+  &__options {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+
+    img {
+      height: 8rem;
+    }
+
+    &__item {
+      margin: 3rem 5rem;
+      cursor: pointer;
+      p {
+        padding-top: 1rem;
+        font-weight: 400;
+      }
+    }
+  }
+
+  h1 {
+    font-size: 7rem;
+    color: black;
+    animation: textColorAnimation 15s linear infinite;
+
+    @keyframes textColorAnimation {
+      0% {
+        color: violet;
+      }
+      25% {
+        color: orangered;
+      }
+      50% {
+        color: orange;
+      }
+      75% {
+        color: red;
+      }
+      100% {
+        color: violet;
+      }
+    }
+  }
+}

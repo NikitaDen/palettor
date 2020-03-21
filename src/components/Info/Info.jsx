@@ -15,7 +15,7 @@ const Info = (props) => {
                 <li>Hover color to see more options;</li>
                 <li>By clicking Lock you can lock/unlock favorite colors and continue generate another colors;</li>
                 <li>You can copy any color-code to clipboard by clicking it;</li>
-                <h3>Let's find palette for you!;</h3>
+                <h3>Let's find palette for you!</h3>
             </ul>
         )
     }

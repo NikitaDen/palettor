@@ -5,6 +5,7 @@
 @import "./../../components/Info/info";
 @import "./../../components/NavMenu/navMenu";
 @import "./../../components/Gradients/gradients";
+@import "./../../components/Main/main";
 
 //Components
 
@@ -33,6 +34,20 @@ body {
   font-family: $text-font;
   color: $text-color;
   overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+  padding: 0.5rem 1.5rem;
+  margin: 0 1rem;
+  color: #737373;
+  transition: .2s;
+  font-weight: bold;
+
+
+  &:hover {
+    color: #343434;
+  }
 }
 
 .App {

@@ -10,7 +10,7 @@ const Header = (props) => {
 
     return (
         <div className="header">
-            <h1>Palettor.</h1>
+            <h1>Pickolor.</h1>
             <NavMenuContainer/>
             <button onClick={() => showAppInfo(props.showInfo)} className="button button--info">How to use?</button>
         </div>
