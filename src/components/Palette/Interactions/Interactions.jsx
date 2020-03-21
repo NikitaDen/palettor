@@ -13,8 +13,10 @@ const Interactions = (props) => {
 
     return (
         <div className='interactions'>
-            <button className='button button--refresh' onClick={() => refreshPalette(props.palette)}>Generate</button>
-            <input type="text" className="summary-values" onClick={copyColor} value={props.palette.map(color => ' ' + color.color)} readOnly={true}/>
+            <button className='button button--refresh' onClick={() => {
+                refreshPalette(props.palette);
+            }}>Generate</button>
+            <input type="text" className="summary-values" onFocus={() => props.setShowCopied(props.showCopied)} onBlur={() => props.setShowCopied(props.showCopied)} onClick={copyColor} value={props.palette.map(color => ' ' + color.color)} readOnly={true}/>
         </div>
     )
 };

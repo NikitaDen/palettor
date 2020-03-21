@@ -1,6 +1,7 @@
 import React from "react";
 import {connect} from "react-redux";
 import {showAppInfo} from "../../redux/palette-reducer";
+import NavMenuContainer from "../NavMenu/NavMenu";
 
 const Header = (props) => {
     const showAppInfo = (visible) => {
@@ -10,6 +11,7 @@ const Header = (props) => {
     return (
         <div className="header">
             <h1>Palettor.</h1>
+            <NavMenuContainer/>
             <button onClick={() => showAppInfo(props.showInfo)} className="button button--info">How to use?</button>
         </div>
     )

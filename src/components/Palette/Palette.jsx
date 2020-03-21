@@ -1,6 +1,6 @@
 import React from "react";
 import {connect} from "react-redux";
-import {lockColor, refreshPalette} from "../../redux/palette-reducer";
+import {lockColor, refreshPalette, setShowCopied} from "../../redux/palette-reducer";
 import PaletteItem from "./PaletteItem/PaletteItem";
 import Interactions from "./Interactions/Interactions";
 
@@ -16,8 +16,9 @@ const Palette = (props) => {
 let stateToProps = (state) => ({
     palette: state.palettePage.palette,
     locked: state.palettePage.locked,
+    showCopied: state.palettePage.showCopied,
 });
 
-const PaletteContainer = connect(stateToProps, {refreshPalette, lockColor})(Palette);
+const PaletteContainer = connect(stateToProps, {refreshPalette, lockColor, setShowCopied})(Palette);
 
 export default PaletteContainer;

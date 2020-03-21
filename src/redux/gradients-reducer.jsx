@@ -17,9 +17,9 @@ function addRgba() {
 
 const initialState = {
     gradient: [
-        {linearGradient: `linear-gradient(${Math.ceil(Math.random() * 360)}deg, ${addRgba()}`, id: 1},
-        {linearGradient: `linear-gradient(${Math.ceil(Math.random() * 360)}deg, ${addRgba()}`, id: 3},
-        {linearGradient: `linear-gradient(${Math.ceil(Math.random() * 360)}deg, ${addRgba()}`, id: 2},
+        {linearGradient: `linear-gradient(${Math.ceil(Math.random() * 360)}deg, ${addRgba()})`, id: 1},
+        {linearGradient: `linear-gradient(${Math.ceil(Math.random() * 360)}deg, ${addRgba()})`, id: 2},
+        {linearGradient: `linear-gradient(${Math.ceil(Math.random() * 360)}deg, ${addRgba()})`, id: 3},
     ]
 };
 

@@ -1,7 +1,13 @@
+$text-font: 'Poppins', sans-serif;
+
 .gradients {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   justify-items: center;
+
+  &>div {
+    width: 100%;
+  }
 
   .gradient {
     margin: 1rem auto;
@@ -9,7 +15,18 @@
     height: 15rem;
     border-radius: 50%;
   }
-  span {
+  .gradient-values {
     font-size: .75rem;
+    font-family: $text-font;
+    width: 100%;
+    outline: none;
+    border: none;
+    background: none;
+    text-align: center;
+    margin-top: 2rem;
+
+    &:hover {
+      cursor: pointer;
+    }
   }
 }

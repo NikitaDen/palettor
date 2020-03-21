@@ -13,6 +13,11 @@ $text-font: 'Poppins', sans-serif;
 
 //Styles
 
+::selection {
+  //background: cornflowerblue;
+  //color: white;
+}
+
 :root {
   box-sizing: border-box;
   font-size: 1rem;
@@ -32,4 +37,45 @@ body {
 
 .App {
   text-align: center;
+}
+
+.showCopied {
+  position: absolute;
+  top: -4rem;
+  padding: .5rem 2rem;
+  background-color: white;
+  box-shadow: 0 0 10px green;
+  border-radius: .5rem;
+  left: 50%;
+  transform: translateX(-50%);
+  color: forestgreen;
+
+  animation: none;
+
+  @keyframes show {
+    0% {
+      top: -4rem;
+    }
+    30%, 70% {
+      top: 1rem;
+    }
+    100% {
+      top: -4rem;
+    }
+  }
+
+  &.toggle {
+    animation: show 2s ease-in-out;
+    @keyframes show {
+      0% {
+        top: -4rem;
+      }
+      30%, 70% {
+        top: 1rem;
+      }
+      100% {
+        top: -4rem;
+      }
+    }
+  }
 }

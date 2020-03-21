@@ -36,6 +36,8 @@ const PaletteItem = (props) => {
                              style={showButtons ? {opacity: "1"} : {opacity: "0"}}>
                             <input onClick={copyColor}
                                    readOnly={true} type="text" className='myColor'
+                                   onFocus={() => props.setShowCopied(props.showCopied)}
+                                   onBlur={() => props.setShowCopied(props.showCopied)}
                                    value={item.color}/>
                             <img onClick={() => toggleLockColor(item.locked, item.id)}
                                  className="button button--lock"

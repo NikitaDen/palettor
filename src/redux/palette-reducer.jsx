@@ -1,6 +1,7 @@
 const REFRESH_PALETTE = 'REFRESH_PALETTE';
 const LOCK_COLOR = 'LOCK_COLOR';
 const SHOW_INFO = 'SHOW_INFO';
+const SHOW_COPIED = 'SHOW_COPIED';
 
 const initialState = {
     palette: [
@@ -11,6 +12,7 @@ const initialState = {
         {color: `#${Math.floor(Math.random() * 16777215).toString(16)}`, locked: false, id: 5},
     ],
     showInfo: false,
+    showCopied: false,
 };
 
 const paletteReducer = (state = initialState, action) => {
@@ -46,6 +48,11 @@ const paletteReducer = (state = initialState, action) => {
                 ...state,
                 showInfo: !action.visible,
             };
+        case SHOW_COPIED:
+            return {
+                ...state,
+                showCopied: !action.showCopied,
+            };
     }
     return state;
 };
@@ -53,5 +60,6 @@ const paletteReducer = (state = initialState, action) => {
 export const refreshPalette = (palette, locked) => ({type: REFRESH_PALETTE, palette, locked});
 export const lockColor = (locked, colorId) => ({type: LOCK_COLOR, locked, colorId});
 export const showAppInfo = (visible) => ({type: SHOW_INFO, visible});
+export const setShowCopied = (showCopied) => ({type: SHOW_COPIED, showCopied});
 
 export default paletteReducer;
