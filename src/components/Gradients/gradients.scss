@@ -1,0 +1,12 @@
+.gradients {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  .gradient {
+    margin: 2rem;
+    width: 15rem;
+    height: 15rem;
+    border-radius: 50%;
+  }
+}
