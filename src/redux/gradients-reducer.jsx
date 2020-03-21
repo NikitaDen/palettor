@@ -28,6 +28,10 @@ const gradientsReducer = (state = initialState, action) => {
         case REFRESH_GRADIENT:
             return {
                 ...state,
+                gradient: state.gradient.map(item => ({
+                    ...item,
+                    linearGradient: `linear-gradient(${Math.ceil(Math.random() * 360)}deg, ${addRgba()}`
+                }))
             };
     }
     return state;

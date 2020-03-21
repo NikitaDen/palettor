@@ -14,10 +14,9 @@ const Gradients = (props) => {
                         </div>
                         <span>{item.linearGradient}</span>
                     </div>
-
-
                 )
             })}
+            <button className='button button--gradient' onClick={props.refreshGradients}>Change</button>
         </div>
     )
 };

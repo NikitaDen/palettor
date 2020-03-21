@@ -38,4 +38,21 @@ $text-font: 'Poppins', sans-serif;
       transform: translateY(.3rem);
     }
   }
+
+  &--gradient {
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+    background: linear-gradient(90deg, blue 0%, crimson 100%);
+    border-radius: 10px;
+    padding: .5rem;
+    width: 15rem;
+    margin-top: 2rem;
+    transition: .3s;
+    grid-column: 1/4;
+
+    &:active {
+      transform: translateY(.3rem);
+    }
+  }
 }
