@@ -18,6 +18,10 @@ $text-font: 'Poppins', sans-serif;
   text-align: center;
   margin-top: 2rem;
 
+  @media all and (max-width: 500px) {
+    font-size: .75rem;
+  }
+
   &:hover {
     cursor: pointer;
   }
@@ -30,10 +34,14 @@ $text-font: 'Poppins', sans-serif;
     font-weight: bold;
     background: linear-gradient(90deg, #6590FF 0%, #5C005E 100%);
     border-radius: 10px;
-    padding: .5rem;
-    width: 15rem;
+    padding: .5rem 1.5rem;
+    //width: 15rem;
     margin-top: 2rem;
     transition: .3s;
+
+    @media all and (max-width: 500px) {
+      font-size: 1.25rem;
+    }
 
     &:active {
       transform: translateY(.3rem);
