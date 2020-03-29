@@ -6,6 +6,13 @@
   width: 90%;
   margin: 1rem auto;
 
+  @media all and (max-width: 760px){
+    flex-direction: column;
+    h1 {
+      display: none;
+    }
+  }
+
   h1 {
     line-height: 1;
     padding: .5rem;
@@ -15,9 +22,8 @@
 .button {
   &--info {
     color: white;
-    font-size: 1rem;
-    height: 2.5rem;
-    padding: 0 1rem;
+    font-size: .7rem;
+    padding: .25rem .75rem;
     font-weight: bold;
     background: linear-gradient(90deg, #6590FF 0%, #5C005E 100%);
     border-radius: 10px;
@@ -25,6 +31,12 @@
 
     &:active {
       transform: translateY(.3rem);
+    }
+
+    @media all and (max-width: 760px){
+      position: fixed;
+      top: .5rem;
+      right: .5rem;
     }
   }
 }

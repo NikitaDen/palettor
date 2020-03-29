@@ -15,13 +15,17 @@ $text-font: 'Poppins', sans-serif;
 //Styles
 
 ::selection {
-  //background: cornflowerblue;
-  //color: white;
+  background: indigo;
+  color: white;
 }
 
 :root {
   box-sizing: border-box;
   font-size: 1rem;
+
+  @media all and (max-width: 760px){
+    font-size: .85rem;
+  }
 }
 
 * {

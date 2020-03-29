@@ -5,7 +5,6 @@ import {showAppInfo} from "../../redux/palette-reducer";
 const CopiedAlert = (props) => {
     return (
         <div className={'showCopied'} style={props.showCopied ? {animation: 'show 2s ease-in-out'} : {animation: 'none'}}>
-            {/*{props.showCopied ? 'showCopied toggle' : 'showCopied'}*/}
             <h2>Copied</h2>
         </div>
     )

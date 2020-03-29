@@ -12,7 +12,7 @@ const Header = (props) => {
         <div className="header">
             <h1>Pickolor.</h1>
             <NavMenuContainer/>
-            <button onClick={() => showAppInfo(props.showInfo)} className="button button--info">How to use?</button>
+            <button onClick={() => showAppInfo(props.showInfo)} className="button button--info">?</button>
         </div>
     )
 };

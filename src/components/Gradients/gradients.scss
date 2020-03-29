@@ -5,6 +5,10 @@ $text-font: 'Poppins', sans-serif;
   grid-template-columns: repeat(3, 1fr);
   justify-items: center;
 
+  @media all and (max-width: 500px) {
+    grid-template-columns: 1fr;
+  }
+
   &>div {
     width: 100%;
   }
@@ -14,7 +18,29 @@ $text-font: 'Poppins', sans-serif;
     width: 15rem;
     height: 15rem;
     border-radius: 50%;
+
+    @media all and (max-width: 1320px) {
+      width: 10rem;
+      height: 10rem;
+    }
+
+    @media all and (max-width: 500px) {
+      width: 6rem;
+      height: 6rem;
+    }
   }
+
+  textarea {
+    resize: none;
+    overflow-x: hidden;
+    padding: .75rem;
+    height: 5rem;
+
+    @media all and (max-width: 500px) {
+      height: 2rem;
+    }
+  }
+
   .gradient-values {
     font-size: .75rem;
     font-family: $text-font;
@@ -24,6 +50,10 @@ $text-font: 'Poppins', sans-serif;
     background: none;
     text-align: center;
     margin-top: 2rem;
+
+    @media all and (max-width: 500px) {
+      margin-top: .5rem;
+    }
 
     &:hover {
       cursor: pointer;

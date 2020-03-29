@@ -17,12 +17,13 @@ const Gradients = (props) => {
                     <div key={item.id}>
                         <div style={{background: item.linearGradient}} className='gradient'>
                         </div>
-                        <input type="text" className="gradient-values"
+                        <textarea type="text" className="gradient-values"
                                onFocus={() => props.setShowCopied(props.showCopied)}
                                onBlur={() => props.setShowCopied(props.showCopied)}
                                onClick={copyColor}
                                value={item.linearGradient}
-                               readOnly={true}/>
+                               readOnly={true}
+                        />
                     </div>
                 )
             })}

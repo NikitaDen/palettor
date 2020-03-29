@@ -3,5 +3,13 @@
   flex-direction: row;
   justify-content: center;
   align-self: flex-end;
+
+  @media all and (max-width: 760px){
+    align-self: center;
+    a {
+      padding: 0;
+    }
+  }
+
 }
 
