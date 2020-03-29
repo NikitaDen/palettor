@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "af36e36df4038455128aaa8ecf9685d8",
+    "revision": "038feb8143b0b56b7047092a0ba6aeca",
     "url": "/palettor/index.html"
   },
   {
-    "revision": "735e8d622b15d0efde7c",
-    "url": "/palettor/static/css/main.ee4456a9.chunk.css"
+    "revision": "6c9bb29c95fc78ed5bbe",
+    "url": "/palettor/static/css/main.022750af.chunk.css"
   },
   {
     "revision": "10f3e80de3568d181fda",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/palettor/static/js/2.a85a8b2b.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "735e8d622b15d0efde7c",
-    "url": "/palettor/static/js/main.5b972bc9.chunk.js"
+    "revision": "6c9bb29c95fc78ed5bbe",
+    "url": "/palettor/static/js/main.86528d15.chunk.js"
   },
   {
     "revision": "e20354a824caedd4f4f3",
