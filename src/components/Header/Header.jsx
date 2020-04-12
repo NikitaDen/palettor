@@ -2,6 +2,7 @@ import React from "react";
 import {connect} from "react-redux";
 import {showAppInfo} from "../../redux/palette-reducer";
 import NavMenuContainer from "../NavMenu/NavMenu";
+import {NavLink} from "react-router-dom";
 
 const Header = (props) => {
     const showAppInfo = (visible) => {
@@ -10,7 +11,9 @@ const Header = (props) => {
 
     return (
         <header>
-            <a className={'title'} href="/"><h1>Pickolor.</h1></a>
+            <NavLink className={'title'} to='/'>
+                <h1>Pickolor.</h1>
+            </NavLink>
             <NavMenuContainer/>
             <button onClick={() => showAppInfo(props.showInfo)} className="button button--info">?</button>
         </header>
