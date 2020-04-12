@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/palettor/static/css/main.12520aeb.chunk.css",
-    "main.js": "/palettor/static/js/main.86528d15.chunk.js",
-    "main.js.map": "/palettor/static/js/main.86528d15.chunk.js.map",
+    "main.css": "/palettor/static/css/main.737b6e72.chunk.css",
+    "main.js": "/palettor/static/js/main.5f8c5572.chunk.js",
+    "main.js.map": "/palettor/static/js/main.5f8c5572.chunk.js.map",
     "runtime-main.js": "/palettor/static/js/runtime-main.eaa0ec68.js",
     "runtime-main.js.map": "/palettor/static/js/runtime-main.eaa0ec68.js.map",
     "static/js/2.a85a8b2b.chunk.js": "/palettor/static/js/2.a85a8b2b.chunk.js",
     "static/js/2.a85a8b2b.chunk.js.map": "/palettor/static/js/2.a85a8b2b.chunk.js.map",
     "index.html": "/palettor/index.html",
-    "precache-manifest.e4f5186566b5579fa080d03865cb4846.js": "/palettor/precache-manifest.e4f5186566b5579fa080d03865cb4846.js",
+    "precache-manifest.e0d386dee46a770932f75fb0496a84d6.js": "/palettor/precache-manifest.e0d386dee46a770932f75fb0496a84d6.js",
     "service-worker.js": "/palettor/service-worker.js",
-    "static/css/main.12520aeb.chunk.css.map": "/palettor/static/css/main.12520aeb.chunk.css.map",
+    "static/css/main.737b6e72.chunk.css.map": "/palettor/static/css/main.737b6e72.chunk.css.map",
     "static/js/2.a85a8b2b.chunk.js.LICENSE.txt": "/palettor/static/js/2.a85a8b2b.chunk.js.LICENSE.txt",
     "static/media/close.svg": "/palettor/static/media/close.22138547.svg",
     "static/media/gradient.svg": "/palettor/static/media/gradient.f6faea6d.svg",
@@ -22,7 +22,7 @@
   "entrypoints": [
     "static/js/runtime-main.eaa0ec68.js",
     "static/js/2.a85a8b2b.chunk.js",
-    "static/css/main.12520aeb.chunk.css",
-    "static/js/main.86528d15.chunk.js"
+    "static/css/main.737b6e72.chunk.css",
+    "static/js/main.5f8c5572.chunk.js"
   ]
 }
