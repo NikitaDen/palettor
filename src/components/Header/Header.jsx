@@ -9,11 +9,11 @@ const Header = (props) => {
     };
 
     return (
-        <div className="header">
-            <h1>Pickolor.</h1>
+        <header>
+            <a className={'title'} href="/"><h1>Pickolor.</h1></a>
             <NavMenuContainer/>
             <button onClick={() => showAppInfo(props.showInfo)} className="button button--info">?</button>
-        </div>
+        </header>
     )
 };
 
